@@ -1,0 +1,96 @@
+
+body{
+	background:lightblue;
+}
+h1{
+	padding-bottom:0;
+	margin-bottom:-6.5%;
+	margin-top:-20%;
+	text-align:center;
+	margin-bottom:0.5%;
+	font-size:130%;
+
+}
+
+h2{
+	margin-bottom:1%;
+	text-align:center;
+}
+
+div img{
+	width:90%;
+	}
+
+@media screen and (min-Width:992px){
+	body{
+		font-size:150%;
+	}
+		
+	div{
+		width:30%;
+	}
+	div img{
+		width:100%;
+	}
+	p{
+		width:70%;
+		float:right;
+		line-height:2;
+		font-size:150%;
+	}
+	
+}
+.logo img{
+	width:12%;
+	border-radius:50%;
+	float:right;
+	padding-top:1%;
+	clear:both;
+	margin-top:-2%;
+}
+h4{
+	float:right;
+	font-size:140%;
+	padding-left:19%;
+	padding-right:18%;
+	padding-top:2%;
+	margin-top:-2%
+}
+
+.icon{
+	font-size:180%;
+	text-decoration:none;
+	float:right;
+	margin-top:-2%;
+}
+#close{
+	display:none;
+
+}
+nav{	
+	float:left;
+	clear:both;
+	padding-left:2.5%;
+	width:40%;
+	height:60vh;
+	background:#f0f0f0;
+	clear:both;
+	position:absolute;
+	margin-top:-7%;
+	display:none;
+
+}
+
+nav a{
+	text-decoration:none;
+	display:block;
+	padding-top:12%;
+	font-size:150%;
+	color:black;
+}
+.my_header{
+	height:15vh;
+}
+.myp{
+	line-height:2;
+}
